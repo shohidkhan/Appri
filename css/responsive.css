@@ -1,0 +1,313 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    #banner .banner_main .banner-shape .shape-1 {
+        top: 170px;
+        left: 18px;
+    }
+    .img-fluid.main_app {
+    margin-left: -15px;
+}
+    
+    #banner .banner_main .banner-mobile-img {
+        margin-top: 200px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    #banner .banner_main{
+        background-position:  center center;
+        padding-bottom: 275px;
+    }
+    .shape-1{
+        display: none;
+    }
+    #banner .banner_main .banner-shape .shape-1{
+        top: 115px;
+        
+    }
+    
+    #banner .banner_main .banner_text h1 {
+       padding-right: 10px;
+        font-size: 50px;
+        padding-top: 160px;
+    }
+    
+    #banner .banner_main .banner-shape .shape-2 {
+        top: 409px;
+    }
+    
+    #feature-area .feature-heading p {
+        font-size: 17px;
+    }
+    #feature-area .feature-wrapper .feature-text p{
+        padding-left: 0;
+        padding-right: 0;
+         padding-top: 15px;
+    }
+    
+    #feature-area .feature-main {
+        margin-top: 40px;
+    }
+    
+    #feature-area .feature-wrapper .feature-text h3{
+        padding-top: 20px;
+    }
+    #Overview .Overview_heading p{
+        font-size: 20px;
+    }
+    #Overview .managment-part .managment-text {
+        margin-top: 25px;
+    }
+    #Overview .managment-part .managment-text h3{
+        font-size: 28px;
+    }
+    #Overview .shedule-part .shedule-text h3{
+        font-size: 28px;
+    }
+    #Overview .shedule-part .shedule-text{
+        margin-top: 60px;
+    }
+    #Overview .shedule-part .shedule-img{
+        margin-top: -60px;
+    }
+    #about_phone{
+        padding-bottom: 0;
+    }
+    #screenshot{
+        margin-top: 80px;
+        margin-bottom: -135px;
+    }
+    #screenshot .screenshot_heading p{
+        font-size: 20px;
+    }
+    #screenshot .screenshot_heading h2{
+        margin-bottom: 15px;
+    }
+    #faq_area .faq_heading p{
+        font-size: 20px;
+    }
+    #faq_area .brand_heading h3{
+        font-size: 25px;
+    }
+    #faq_area .brand_heading{
+        margin-top: 0;
+    }
+    #latest-blog-area .latest-blog-heading p{
+        font-size: 20px;
+    }
+    #latest-blog-area .latest-blog-content {
+        padding: 0 10px;
+    }
+    .latest-blog-meta span{
+        margin-right: 12px;
+    }
+    .Subscribe-form {
+        padding-left: 25px;
+    }
+    #subscribe-area {
+        margin-top: 100px;
+    }
+    #price-plane {
+        margin-top: 80px;
+    }
+    #Overview .shedule-part .shedule-text p,#Overview .managment-part .managment-text p{
+        font-size: 16px;
+    }
+    #latest-blog-area .inner-blog{
+        padding: 30px 27px;
+    }
+    .inner-blog h3 a{
+        font-size: 16px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #navigation{
+        top: 15px;
+    }
+    #navigation .navbar-nav{
+        text-align: center;
+    }
+#banner .banner_main {
+    padding-bottom: 265px;
+}
+    #banner .banner_main .banner_text h1{
+        padding-top: 115px;
+        font-size: 35px;
+        padding-right: 222px;
+    }
+    #banner .banner_main .banner_text p{
+        font-size: 18px;
+        padding-top: 5px;
+        padding-right: 180px;
+        line-height: 1.7;
+    }
+    #banner .banner_main .banner_text .banner-btn a{
+        margin-top: 20px;
+    }
+    #banner .banner_main .banner-shape .shape-2 {
+
+    left: 64%;
+    top: 306px;
+    }
+    #banner .banner_main .banner-shape .shape-1 {
+
+    top: 108px;
+    left: 85%;
+    }
+    #feature-area .feature-heading p{
+        padding: 0 28px;
+        padding-top: 22px;
+        
+    }
+    #feature-area .feature-wrapper .feature-text h3{
+        padding-top: 15px;
+    }
+    #fact-area .single-fact::after{
+        right: -25px;
+    }
+    #feature-area .feature-wrapper .feature-text p{
+        padding: 0 107px;
+        padding-top: 8px;
+    }
+    .feature-wrapper {
+        margin-bottom: 50px;
+    }
+    #video .video-icon i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    #Overview .Overview_heading p{
+        padding: 0 30px;
+    }
+    #Overview .managment-part .managment-text h3,#Overview .shedule-part .shedule-text h3{
+        font-size: 21px;
+        
+    }
+    #Overview .shedule-part .shedule-text p,#Overview .managment-part .managment-text p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    #Overview .managment-part .managment-text,#Overview .shedule-part .shedule-text{
+        margin-top: 50px;;
+    }
+    #Overview .managment-part .managment-text a,#Overview .shedule-part .shedule-text a{
+        font-size: 14px;
+        padding: 15px 25px;
+        margin-top: 20px;
+    }
+    #Overview .managment-part {
+        padding-top: 70px;
+    }
+    #about_phone{
+        padding: 44px 0;
+        margin-top: 40px;
+    }
+    #price-plane{
+        margin-top: 70px;
+    }
+    #price-plane .price-heading p{
+        padding: 0 107px;
+        padding-top: 10px;
+    }
+    #price-plane .price-box .price-btn a{
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    #price-plane .price-box {
+        padding: 30px 18px;
+    }
+    #price-plane .price-box .price-content-header h2{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    #price-plane .price-box .price-content-header{
+        padding-bottom: 10px;
+    }
+    #price-plane .price-box .price-content-header h2 span:first-child{
+        margin-left: -7px;
+    }
+    #price-plane .price-box .price-list {
+        padding-top: 5px;
+    }
+    #price-plane .price-box .price-list ul li{
+        margin: 7px 0;
+    }
+    #price-plane {
+        margin-bottom: -180px;
+    }
+    #testimonial{
+        padding-top: 280px;
+    }
+    #testimonial .testimonial_text p{
+        font-size: 28px;
+    }
+    #screenshot {
+        margin-top: 100px;
+    }
+    #screenshot .screenshot_heading p{
+        padding: 0 107px;
+    }
+    #faq_area{
+        padding-top: 155px;
+    }
+    #faq_area .faq_heading p{
+        padding: 0 107px;
+    }
+    #faq_area .faq_wrapper {
+        margin-top: 70px;
+    }
+    #faq_area .faq_wrapper .card .card-body{
+        padding: 30px 23px;
+    }
+    #faq_area .brand_heading h3{
+        padding: 0 5px;
+    }
+    #latest-blog-area {
+        margin-top: 150px;
+    }
+    #latest-blog-area .latest-blog-heading p{
+        padding: 0 107px;
+    }
+    #latest-blog-area .inner-blog{
+        padding: 30px 20px;
+    }
+    .inner-blog h3 a{
+        font-size: 17px;
+    }
+    .latest-blog {
+        margin-bottom: 50px;
+    }
+    #subscribe-area {
+        margin-top: 80px;
+    }
+    #subscribe-area .subscribe-content h3{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #subscribe-area .Subscribe-form button{
+        padding: 20px 30px;
+        right: 8px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
